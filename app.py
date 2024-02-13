@@ -80,6 +80,8 @@ with col5:
          st.image("lua com nuvens.png",width=200)
     if descricao == "Cidade não encontrada":
         st.image("not-found.png",width=200)
+    if descricao == "":
+        st.subheader("Digite uma cidade",anchor=False)
     st.title(descricao,anchor=False)
 
     
