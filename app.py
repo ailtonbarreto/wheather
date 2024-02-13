@@ -13,7 +13,7 @@ st.set_page_config(page_title="App clima",layout='centered',page_icon='🌥')
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html = True)
 
-container = st.container()
+
 col1, col2, col3 = st.columns([1,5,1])
 col4,col5,col6 = st.columns([1,5,1])
 #--------------------------------------------------------------------------------
@@ -24,10 +24,10 @@ apikey = 'd66a70f6c2960de613aae17abe518df9'
 #--------------------------------------------------------------------------------
 #seletor cidade
 with col2:
-    cidade = st.text_input('Cidade',value="FRANCA").upper()
+    cidade = st.text_input('Cidade',value="Franca").upper()
 
 if cidade=="":
-    cidade = "FRANCA"
+    cidade = "Franca"
     
 
 #--------------------------------------------------------------------------------
@@ -61,27 +61,26 @@ except KeyError:
 #layout
 
 temp = f'{int(temperatura)}°C'
-with container:
-    with col5:
-        st.title(temp,anchor=False)
-        if descricao == "nublado":
-            st.image("nublado.png",width=200)
-        if descricao == "ensolarado":
-            st.image("ensolarado.png",width=200)
-        if descricao == "névoa":
-            st.image("nevoa.png",width=200)
-        if descricao == "céu limpo" and hora >= noite:
-            st.image("lua céu claro.png",width=200)
-        if descricao == "céu limpo" and hora <= noite:  
-            st.image("ensolarado.png",width=200)
-        if descricao == "algumas nuvens" and hora <= noite:
-            st.image("sol com nuvens.png",width=200)
-        if descricao == "algumas nuvens" and hora >= noite:
-            st.image("lua com nuvens.png",width=200)
-        if descricao == "Cidade não encontrada":
-            st.image("not-found.png",width=200)
-        
-        st.title(descricao,anchor=False)
+
+with col5:
+    st.title(temp,anchor=False)
+    if descricao == "nublado":
+        st.image("nublado.png",width=500)
+    if descricao == "ensolarado":
+        st.image("ensolarado.png",width=500)
+    if descricao == "névoa":
+        st.image("nevoa.png",width=500)
+    if descricao == "céu limpo" and hora >= noite:
+        st.image("lua céu claro.png",width=500)
+    if descricao == "céu limpo" and hora <= noite:  
+        st.image("ensolarado.png",width=500)
+    if descricao == "algumas nuvens" and hora <= noite:
+        st.image("sol com nuvens.png",width=500)
+    if descricao == "algumas nuvens" and hora >= noite:
+         st.image("lua com nuvens.png",width=500)
+    if descricao == "Cidade não encontrada":
+        st.image("not-found.png",width=500)
+    st.title(descricao,anchor=False)
 
     
 #--------------------------------------------------------------------------------
