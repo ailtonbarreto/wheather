@@ -80,9 +80,9 @@ with col5:
          st.image("lua com nuvens.png",width=500)
     if descricao == "Cidade não encontrada":
         st.image("not-found.png",width=500)
-    st.title(cidade,anchor=False)
+    st.title(descricao,anchor=False)
 
-
+print(cidade)
 #--------------------------------------------------------------------------------
     
 desativardetalhes = """
