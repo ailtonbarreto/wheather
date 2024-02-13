@@ -82,7 +82,7 @@ with col5:
         st.image("not-found.png",width=500)
     st.title(descricao,anchor=False)
 
-print(cidade)
+
 #--------------------------------------------------------------------------------
     
 desativardetalhes = """
