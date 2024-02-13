@@ -26,8 +26,8 @@ apikey = 'd66a70f6c2960de613aae17abe518df9'
 with col2:
     cidade = st.text_input('Cidade',value="Franca").upper()
 
-if cidade=="":
-    cidade = "Franca"
+# if cidade=="":
+#     cidade = "Franca"
     
 
 #--------------------------------------------------------------------------------
