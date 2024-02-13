@@ -112,6 +112,7 @@ imagem = """
     [data-testid="stImage"]
     {
     opacity: 100%;
+    text-align: center;
     }
     </style>
 """
