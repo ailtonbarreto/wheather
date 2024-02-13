@@ -24,7 +24,7 @@ apikey = 'd66a70f6c2960de613aae17abe518df9'
 #--------------------------------------------------------------------------------
 #seletor cidade
 with col2:
-    cidade = st.text_input('Cidade',value="Franca").upper()
+    cidade = st.text_input('Cidade',value=" ").upper()
 
 # if cidade=="":
 #     cidade = "Franca"
@@ -80,7 +80,7 @@ with col5:
          st.image("lua com nuvens.png",width=200)
     if descricao == "Cidade não encontrada":
         st.image("not-found.png",width=200)
-    if descricao == "":
+    if descricao == " ":
         st.subheader("Digite uma cidade",anchor=False)
     st.title(descricao,anchor=False)
 
