@@ -89,7 +89,7 @@ with col5:
          
     if descricao == "Cidade não encontrada":
         st.subheader("Digite Uma Cidade",anchor=False)
-    if descricao == "Cidade não encontrada" and cidade != None:
+    if descricao == "Cidade não encontrada" and cidade != "":
         st.image("not-found.png",width=500) 
     
 
