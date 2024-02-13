@@ -89,8 +89,8 @@ with col5:
          
     if descricao == "Cidade não encontrada":
         st.subheader("Digite Uma Cidade",anchor=False)
-    # if descricao == "Cidade não encontrada":
-    #     st.image("not-found.png",width=500) 
+    if descricao == "Cidade não encontrada" and cidade != None:
+        st.image("not-found.png",width=500) 
     
 
 
