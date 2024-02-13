@@ -26,9 +26,6 @@ apikey = 'd66a70f6c2960de613aae17abe518df9'
 with col2:
     cidade = st.text_input('Cidade').upper()
 
-# if cidade=="":
-#     cidade = "Franca"
-    
 
 #--------------------------------------------------------------------------------
 #link api
@@ -44,9 +41,12 @@ requisicao = rq.get(link)
 #dados
 
 hora = datetime.now().time()
+
 noite = time(hour=18, minute=00, second=00)
 
 requsicao_dic = requisicao.json()
+
+#--------------------------------------------------------------------------------
 
 
 try:
@@ -81,8 +81,10 @@ with col5:
         st.image("sol com nuvens.png",width=500)
     if descricao == "algumas nuvens" and hora >= noite:
          st.image("lua com nuvens.png",width=500)
-    if descricao == "Cidade não encontrada":
+    if descricao == "Cidade não encontrada" and cidade == "":
         st.image("not-found.png",width=500)
+    if descricao == "Cidade não encontrada":
+        st.image("not-found.png",width=500) 
     st.title(descricao,anchor=False)
 
 
