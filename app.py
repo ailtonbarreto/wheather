@@ -81,7 +81,7 @@ with col5:
          
     if cidade == None:
         st.subheader("Digite Uma Cidade",anchor=False)
-        temperatura = None
+        temp = ""
     # if descricao == "Cidade não encontrada":
     #     st.image("not-found.png",width=500) 
     st.title(descricao,anchor=False)
