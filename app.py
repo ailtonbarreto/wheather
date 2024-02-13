@@ -65,21 +65,21 @@ temp = f'{int(temperatura)}°C'
 with col5:
     st.title(temp,anchor=False)
     if descricao == "nublado":
-        st.image("nublado.png",width=500)
+        st.image("nublado.png",width=200)
     if descricao == "ensolarado":
-        st.image("ensolarado.png",width=500)
+        st.image("ensolarado.png",width=200)
     if descricao == "névoa":
-        st.image("nevoa.png",width=500)
+        st.image("nevoa.png",width=200)
     if descricao == "céu limpo" and hora >= noite:
-        st.image("lua céu claro.png",width=500)
+        st.image("lua céu claro.png",width=200)
     if descricao == "céu limpo" and hora <= noite:  
-        st.image("ensolarado.png",width=500)
+        st.image("ensolarado.png",width=200)
     if descricao == "algumas nuvens" and hora <= noite:
-        st.image("sol com nuvens.png",width=500)
+        st.image("sol com nuvens.png",width=200)
     if descricao == "algumas nuvens" and hora >= noite:
-         st.image("lua com nuvens.png",width=500)
+         st.image("lua com nuvens.png",width=200)
     if descricao == "Cidade não encontrada":
-        st.image("not-found.png",width=500)
+        st.image("not-found.png",width=200)
     st.title(descricao,anchor=False)
 
     
