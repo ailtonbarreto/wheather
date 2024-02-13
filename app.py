@@ -24,10 +24,10 @@ apikey = 'd66a70f6c2960de613aae17abe518df9'
 #--------------------------------------------------------------------------------
 #seletor cidade
 with col2:
-    cidade = st.text_input('Cidade',value="Franca").upper()
+    cidade = st.text_input('Cidade').upper()
 
-if cidade=="":
-    cidade = "Franca"
+# if cidade=="":
+#     cidade = "Franca"
     
 
 #--------------------------------------------------------------------------------
@@ -82,7 +82,7 @@ with col5:
         st.image("not-found.png",width=500)
     st.title(descricao,anchor=False)
 
-    
+st.write(cidade)
 #--------------------------------------------------------------------------------
     
 desativardetalhes = """
