@@ -79,7 +79,7 @@ with col5:
     if descricao == "algumas nuvens" and hora >= noite:
          st.image("lua com nuvens.png",width=500)
          
-    if cidade == "":
+    if cidade == None:
         st.subheader("Digite Uma Cidade",anchor=False)
     if descricao == "Cidade não encontrada":
         st.image("not-found.png",width=500) 
