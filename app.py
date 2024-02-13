@@ -66,6 +66,9 @@ with col5:
     st.title(temp,anchor=False)
     if descricao == "nublado":
         st.image("nublado.png",width=500)
+    if descricao == "":
+        st.subheader("Digite Uma Cidade",anchor=False)
+        
     if descricao == "ensolarado":
         st.image("ensolarado.png",width=500)
     if descricao == "névoa":
