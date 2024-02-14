@@ -63,6 +63,8 @@ except KeyError:
 temp = f'{int(temperatura)}°C'
 
 with col5:
+    if cidade == None:
+        st.subheader("digite uma cidade")
     if descricao == "nublado":
         st.title(temp,anchor=False)
         st.image("nublado.png",width=500)
