@@ -63,6 +63,7 @@ except KeyError:
 temp = f'{int(temperatura)}°C'
 
 with col5:
+    st.subheader(descricao)
     if cidade == "":
         st.subheader("digite uma cidade",anchor=False)
     if descricao == "nublado":
