@@ -64,7 +64,7 @@ temp = f'{int(temperatura)}°C'
 
 with col5:
     if cidade == "":
-        st.subheader("digite uma cidade")
+        st.subheader("digite uma cidade",anchor=False)
     if descricao == "nublado":
         st.title(temp,anchor=False)
         st.image("nublado.png",width=500)
