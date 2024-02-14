@@ -87,11 +87,11 @@ with col5:
         st.title(descricao,anchor=False)
     if descricao == "algumas nuvens" and hora <= noite:
         st.title(temp,anchor=False)
-        st.image("sol com nuvens.png",width=500)
+        st.image("poucas nuvens dia.png",width=500)
         st.title(descricao,anchor=False)
     if descricao == "algumas nuvens" and hora >= noite:
          st.title(temp,anchor=False)
-         st.image("lua com nuvens.png",width=500)
+         st.image("poucas nuvens noite.png",width=500)
          st.title(descricao,anchor=False)
     if descricao == "Cidade não encontrada" and cidade != "":
         st.image("not-found.png",width=500)
