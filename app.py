@@ -69,7 +69,13 @@ with col5:
     if descricao == "nublado":
         st.title(temp,anchor=False)
         st.image("nublado.png",width=500)
-        st.title(descricao,anchor=False)     
+        st.title(descricao,anchor=False)
+    if descricao == "chuva moderada":
+        st.title(temp,anchor=False)
+        st.image("chuva moderada.png",width=500)
+        st.title(descricao,anchor=False) 
+        
+             
     if descricao == "ensolarado":
         st.title(temp,anchor=False)
         st.image("ensolarado.png",width=500)
