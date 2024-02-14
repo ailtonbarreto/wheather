@@ -91,6 +91,7 @@ with col5:
 
     if descricao == "Cidade não encontrada":
         st.subheader("Digite Uma Cidade",anchor=False)
+        temp = ""
 #--------------------------------------------------------------------------------
     
 desativardetalhes = """
