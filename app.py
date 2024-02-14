@@ -65,7 +65,6 @@ temp = f'{int(temperatura)}°C'
 with col5:
     st.title(temp,anchor=False)
     if descricao == "nublado":
-        
         st.image("nublado.png",width=500)
         st.title(descricao,anchor=False)     
     if descricao == "ensolarado":
@@ -86,14 +85,12 @@ with col5:
     if descricao == "algumas nuvens" and hora >= noite:
          st.image("lua com nuvens.png",width=500)
          st.title(descricao,anchor=False)
-         
-    if descricao == "Cidade não encontrada":
-        st.subheader("Digite Uma Cidade",anchor=False)
     if descricao == "Cidade não encontrada" and cidade != "":
         st.image("not-found.png",width=500) 
     
 
-
+    if descricao == "Cidade não encontrada":
+        st.subheader("Digite Uma Cidade",anchor=False)
 #--------------------------------------------------------------------------------
     
 desativardetalhes = """
