@@ -86,8 +86,10 @@ with col5:
         st.image("lua céu claro.png",width=500)
         st.title(descricao,anchor=False)
     if descricao == "nuvens dispersas": 
-        st.title(temp,anchor=False)
-        st.image("nuvens dispersas.png",width=500)
+        st.title(temp,anchor=False)  
+    if descricao == "chuva leve": 
+        st.title(temp,anchor=False)    
+        st.image("chuva leve.png",width=500)
     if descricao == "céu limpo" and hora <= noite:
         st.title(temp,anchor=False)
         st.image("ensolarado.png",width=500)
