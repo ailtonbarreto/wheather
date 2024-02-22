@@ -138,7 +138,7 @@ st.markdown(containerborda,unsafe_allow_html=True)
 
 imagem = """
     <style>
-    [data-testid="stVerticalBlock"]
+    [data-testid="element-container"]
     {
     text-align: center;
     }
@@ -146,3 +146,4 @@ imagem = """
 """
 st.markdown(imagem,unsafe_allow_html=True)
     
+
