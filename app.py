@@ -136,7 +136,7 @@ st.markdown(containerborda,unsafe_allow_html=True)
 
 imagem = """
     <style>
-    [data-testid="stImage"]
+    [data-testid="column"]
     {
     opacity: 100%;
     text-align: center;
