@@ -138,9 +138,9 @@ st.markdown(containerborda,unsafe_allow_html=True)
 
 imagem = """
     <style>
-    [data-testid="stImage"]
+    [data-testid="stFullScreenFrame"]
     {
-    text-align: center;
+    padding-left: 30px;
     }
     </style>
 """
