@@ -124,7 +124,7 @@ st.markdown(desativardetalhes,unsafe_allow_html=True)
 
 containerborda = """
     <style>
-    [data-testid="stVerticalBlockBorderWrapper"]
+    [data-testid="column"]
     {
     border-radius: 18px;
     background-color: #0F303A;
@@ -139,7 +139,6 @@ imagem = """
     <style>
     [data-testid="stVerticalBlock"]
     {
-    opacity: 100%;
     text-align: center;
     }
     </style>
