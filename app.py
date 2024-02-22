@@ -103,7 +103,7 @@ with col5:
     if descricao == "Cidade não encontrada" and cidade != "":
         st.image("not-found.png",width=500)
         st.subheader("Cidade não encontrada",anchor=False)
-      
+    st.write(descricao)  
 
 #--------------------------------------------------------------------------------
     
