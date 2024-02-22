@@ -15,7 +15,7 @@ with open("style.css") as f:
 
 
 col1, col2, col3 = st.columns([1,5,1])
-col4,col5,col6 = st.columns([1,5,1])
+col5, = st.columns(1)
 #--------------------------------------------------------------------------------
 #chave api
 
