@@ -14,7 +14,7 @@ with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html = True)
 
 
-col1, col2, col3 = st.columns([1,5,1])
+col1, = st.columns(1)
 col5, = st.columns(1)
 #--------------------------------------------------------------------------------
 #chave api
@@ -23,7 +23,7 @@ apikey = 'd66a70f6c2960de613aae17abe518df9'
 
 #--------------------------------------------------------------------------------
 #seletor cidade
-with col2:
+with col1:
     cidade = st.text_input('Cidade').upper()
 
 
