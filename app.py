@@ -129,6 +129,7 @@ containerborda = """
     border-radius: 18px;
     background-color: #0F303A;
     opacity: 90%;
+    text-align: center;
     }
     </style>
 """
