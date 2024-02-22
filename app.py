@@ -128,6 +128,7 @@ containerborda = """
     {
     border-radius: 18px;
     background-color: #0F303A;
+    padding: 30px;
     opacity: 90%;
     text-align: center;
     }
