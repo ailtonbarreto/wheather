@@ -67,46 +67,46 @@ with col5:
         st.subheader("digite uma cidade",anchor=False)
     if descricao == "nublado":
         st.title(temp,anchor=False)
-        st.image("nublado.png",width=500)
+        st.image("nublado.png",use_column_width=True)
         st.title(descricao,anchor=False)
     if descricao == "chuva moderada":
         st.title(temp,anchor=False)
-        st.image("chuva moderada.png",width=500)
+        st.image("chuva moderada.png",use_column_width=True)
         st.title(descricao,anchor=False) 
     if descricao == "ensolarado":
         st.title(temp,anchor=False)
-        st.image("ensolarado.png",width=500)
+        st.image("ensolarado.png",use_column_width=True)
         st.title(descricao,anchor=False)
     if descricao == "névoa":
         st.title(temp,anchor=False)
-        st.image("nevoa.png",width=500)
+        st.image("nevoa.png",use_column_width=True)
         st.title(descricao,anchor=False)
     if descricao == "céu limpo" and hora >= noite:
         st.title(temp,anchor=False)
-        st.image("lua céu claro.png",width=500)
+        st.image("lua céu claro.png",use_column_width=True)
         st.title(descricao,anchor=False)
     if descricao == "nuvens dispersas": 
         st.title(temp,anchor=False)
-        st.image("nuvens dispersas.png",width=500)
+        st.image("nuvens dispersas.png",use_column_width=True)
         st.title(descricao,anchor=False)
     if descricao == "chuva leve": 
         st.title(temp,anchor=False)    
-        st.image("chuva leve.png",width=500)
+        st.image("chuva leve.png",use_column_width=True)
         st.title(descricao,anchor=False)
     if descricao == "céu limpo" and hora <= noite:
         st.title(temp,anchor=False)
-        st.image("ensolarado.png",width=500)
+        st.image("ensolarado.png",use_column_width=True)
         st.title(descricao,anchor=False)
     if descricao == "algumas nuvens" and hora <= noite:
         st.title(temp,anchor=False)
-        st.image("poucas nuvens dia.png",width=500)
+        st.image("poucas nuvens dia.png",use_column_width=True)
         st.title(descricao,anchor=False)
     if descricao == "algumas nuvens" and hora >= noite:
          st.title(temp,anchor=False)
-         st.image("poucas nuvens noite.png",width=500)
+         st.image("poucas nuvens noite.png",use_column_width=True)
          st.title(descricao,anchor=False)
     if descricao == "Cidade não encontrada" and cidade != "":
-        st.image("not-found.png",width=500)
+        st.image("not-found.png",use_column_width=True)
         st.subheader("Cidade não encontrada",anchor=False)
     
 
