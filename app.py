@@ -141,6 +141,7 @@ imagem = """
     [data-testid="stFullScreenFrame"]
     {
     padding-left: 70px;
+    padding-right: 70px;
     }
     </style>
 """
