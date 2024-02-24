@@ -136,15 +136,6 @@ containerborda = """
 """
 st.markdown(containerborda,unsafe_allow_html=True)
 
-imagem = """
-    <style>
-    [data-testid="stFullScreenFrame"]
-    {
-    padding-left: 70px;
-    padding-right: 70px;
-    }
-    </style>
-"""
-st.markdown(imagem,unsafe_allow_html=True)
+
     
 
