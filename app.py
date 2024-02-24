@@ -97,11 +97,11 @@ with container:
         st.title(temp,anchor=False)
         st.image("ensolarado.png",use_column_width=True)
         st.title(descricao,anchor=False)
-    if descricao == "algumas nuvens" and hora <= noite:
+    if descricao == "algumas nuvens" and hora >= noite:
         st.title(temp,anchor=False)
         st.image("poucas nuvens dia.png",use_column_width=True)
         st.title(descricao,anchor=False)
-    if descricao == "algumas nuvens" and hora >= noite:
+    if descricao == "algumas nuvens" and hora <= noite:
          st.title(temp,anchor=False)
          st.image("poucas nuvens noite.png",use_column_width=True)
          st.title(descricao,anchor=False)
