@@ -107,7 +107,7 @@ with container:
          st.title(descricao,anchor=False)
     if descricao == "Cidade não encontrada" and cidade != "":
         st.image("not-found.png",use_column_width=True)
-        st.subheader("Cidade não encontrada",anchor=True)
+        st.subheader("Cidade não encontrada",anchor=False)
     
 
 #--------------------------------------------------------------------------------
