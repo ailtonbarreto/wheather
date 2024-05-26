@@ -89,7 +89,7 @@ containerborda = """
     [data-testid="stVerticalBlockBorderWrapper"]
     {
     border-radius: 18px;
-    background-color: white;
+    background-color: #26506D;
     padding: 30px;
     opacity: 90%;
     text-align: center;
