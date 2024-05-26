@@ -99,15 +99,15 @@ containerborda = """
 """
 st.markdown(containerborda,unsafe_allow_html=True)
 
-containerborda = """
+text = """
     <style>
-    [p]
+    [data-testid="stMarkdownContainer"]
     {
     font-size: 30pt;
     text-align: center;
     }
     </style>
 """
-st.markdown(containerborda,unsafe_allow_html=True)
+st.markdown(text,unsafe_allow_html=True)
     
 
