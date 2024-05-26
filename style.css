@@ -2,7 +2,7 @@ header{
     visibility: hidden;
 }
 
-body{
+body .colums{
     display: flex;
     color: #26506D;
     flex-direction: column;
