@@ -56,7 +56,6 @@ except KeyError:
     descricao = "Cidade não encontrada"
     temperatura = "0"
 
-st.write(link)
 #--------------------------------------------------------------------------------
 #layout
 
@@ -109,7 +108,7 @@ with container:
         st.image("not-found.png",use_column_width=True)
         st.subheader("Cidade não encontrada",anchor=False)
     
-
+    st.write(link)
 #--------------------------------------------------------------------------------
     
 desativardetalhes = """
