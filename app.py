@@ -64,7 +64,7 @@ icon = f"https://openweathermap.org/img/wn/{icon}@2x.png"
 temp = f'{int(temperatura)}°C'
   
 with col2:
-    st.image(icon,width=100)
+    st.image(icon,width=400)
 with col3:
     st.write(descricao)
 with col4:
