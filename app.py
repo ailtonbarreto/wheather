@@ -108,5 +108,15 @@ text = """
     </style>
 """
 st.markdown(text,unsafe_allow_html=True)
-    
+
+
+img = """
+    <style>
+    [data-testid="stImage"]
+    {
+    text-align: center;
+    }
+    </style>
+"""
+st.markdown(img,unsafe_allow_html=True)
 
