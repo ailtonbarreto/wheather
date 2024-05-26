@@ -55,6 +55,7 @@ try:
 except KeyError:
     descricao = "Cidade não encontrada"
     temperatura = "0"
+    icon = "⚠"
 
 icon = f"https://openweathermap.org/img/wn/{icon}@2x.png"
 
