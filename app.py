@@ -52,7 +52,7 @@ requsicao_dic = requisicao.json()
 try:
     descricao = requsicao_dic['weather'][0]['description']
     temperatura = requsicao_dic['main']['temp'] - 273.15
-    icon = requisicao_dic['weather'][0]['icon']
+    icon = requsicao_dic['weather'][0]['icon']
 except KeyError:
     descricao = "Cidade não encontrada"
     temperatura = "0"
