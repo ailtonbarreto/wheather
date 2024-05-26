@@ -112,9 +112,9 @@ st.markdown(text,unsafe_allow_html=True)
 
 img = """
     <style>
-    [data-testid="stVerticalBlock"]
+    [data-testid="stFullScreenFrame"]
     {
-    text-align: center;
+    align-items: center;
     }
     </style>
 """
