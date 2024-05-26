@@ -15,7 +15,7 @@ with open("style.css") as f:
 
 
 container = st.container()
-
+col1, col2 = st.columns(1,2)
 #--------------------------------------------------------------------------------
 #chave api
 
@@ -65,8 +65,10 @@ icon = f"https://openweathermap.org/img/wn/{icon}@2x.png"
 temp = f'{int(temperatura)}°C'
 
 with container:
-    st.write(descricao)
-    st.image(icon,width=100)
+    with col1:
+        st.image(icon,width=200)
+        st.write(descricao)
+        
 
 
 #--------------------------------------------------------------------------------
