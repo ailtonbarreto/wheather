@@ -65,6 +65,7 @@ temp = f'{int(temperatura)}°C'
   
 with col2:
     st.image(icon,width=100)
+with col3:
     st.write(descricao)
     st.write(temp)
         
