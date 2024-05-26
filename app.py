@@ -56,7 +56,7 @@ except KeyError:
     descricao = "Cidade não encontrada"
     temperatura = "0"
 
-# https://openweathermap.org/weather-conditions
+st.write(link)
 #--------------------------------------------------------------------------------
 #layout
 
