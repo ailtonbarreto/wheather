@@ -65,7 +65,7 @@ temp = f'{int(temperatura)}°C'
 with container:
     st.write(descricao)
     st.write(icon)
-    st.write(link)
+    st.write(requsicao_dic)
 
 
 #--------------------------------------------------------------------------------
