@@ -112,7 +112,7 @@ st.markdown(text,unsafe_allow_html=True)
 
 img = """
     <style>
-    [class="st-emotion-cache-1kyxreq e115fcil2"]
+    [data-testid="stVerticalBlock"]
     {
     text-align: center;
     }
