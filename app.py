@@ -57,6 +57,8 @@ except KeyError:
     descricao = "Cidade não encontrada"
     temperatura = "0"
 
+icon = f"https://openweathermap.org/img/wn/{icon}@2x.png"
+
 #--------------------------------------------------------------------------------
 #layout
 
@@ -64,8 +66,7 @@ temp = f'{int(temperatura)}°C'
 
 with container:
     st.write(descricao)
-    st.write(icon)
-    st.write(requsicao_dic)
+    st.image(icon)
 
 
 #--------------------------------------------------------------------------------
