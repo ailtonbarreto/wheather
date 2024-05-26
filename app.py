@@ -67,9 +67,9 @@ temp = f'{int(temperatura)}°C'
   
 with col2:
     st.image(icon,width=100)
-    st.write(temp)
+    st.subheader(temp,anchor=False)
 with col3:
-    st.write(descricao)
+    st.subheader(descricao,anchor=False)
     
 
 
