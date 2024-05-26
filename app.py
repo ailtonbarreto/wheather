@@ -69,6 +69,7 @@ with container:
         st.image(icon,width=100)
     with col2:
         st.write(descricao)
+        st.write(temp)
         
 
 
