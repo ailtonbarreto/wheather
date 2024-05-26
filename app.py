@@ -99,6 +99,15 @@ containerborda = """
 """
 st.markdown(containerborda,unsafe_allow_html=True)
 
-
+containerborda = """
+    <style>
+    [p]
+    {
+    font-size: 30pt;
+    text-align: center;
+    }
+    </style>
+"""
+st.markdown(containerborda,unsafe_allow_html=True)
     
 
