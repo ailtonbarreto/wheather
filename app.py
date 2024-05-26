@@ -63,7 +63,7 @@ except KeyError:
 temp = f'{int(temperatura)}°C'
 
 with container:
-    st.write(icon)
+    st.write(descricao)
 
 
 #--------------------------------------------------------------------------------
