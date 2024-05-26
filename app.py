@@ -112,7 +112,7 @@ st.markdown(text,unsafe_allow_html=True)
 
 img = """
     <style>
-    [data-testid="stFullScreenFrame"]
+    [class="st-emotion-cache-1kyxreq e115fcil2"]
     {
     align-items: center;
     }
