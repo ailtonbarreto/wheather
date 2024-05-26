@@ -14,7 +14,7 @@ with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html = True)
 
 col1,= st.columns(1)
-col2, col3 = st.columns([2,1])
+col2, col3 = st.columns([1,1])
 #--------------------------------------------------------------------------------
 #chave api
 
