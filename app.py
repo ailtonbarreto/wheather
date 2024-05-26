@@ -45,6 +45,8 @@ noite = time(hour=18, minute=00, second=00)
 
 requsicao_dic = requisicao.json()
 
+icon = f"https://openweathermap.org/img/wn/{icon}@2x.png"
+
 #--------------------------------------------------------------------------------
 
 
@@ -57,7 +59,7 @@ except KeyError:
     temperatura = "0"
     icon = "⚠"
 
-icon = f"https://openweathermap.org/img/wn/{icon}@2x.png"
+
 
 #--------------------------------------------------------------------------------
 #layout
