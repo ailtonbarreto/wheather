@@ -30,7 +30,7 @@ with container:
 #--------------------------------------------------------------------------------
 #link api
 
-link = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={apikey}&lang=pt_br"
+link = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={apikey}&lang=pt_br&icon"
 
 #--------------------------------------------------------------------------------
 #requisicao
