@@ -14,7 +14,7 @@ with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html = True)
 
 col1,= st.columns(1)
-col2, col3 = st.columns([1,1])
+col2, col3, col4 = st.columns([1,1,1])
 #--------------------------------------------------------------------------------
 #chave api
 
@@ -67,6 +67,7 @@ with col2:
     st.image(icon,width=100)
 with col3:
     st.write(descricao)
+with col4:
     st.write(temp)
         
 
