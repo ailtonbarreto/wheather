@@ -45,21 +45,19 @@ noite = time(hour=18, minute=00, second=00)
 
 requsicao_dic = requisicao.json()
 
-icon = f"https://openweathermap.org/img/wn/{icon}@2x.png"
-
 #--------------------------------------------------------------------------------
 
 
 try:
     descricao = requsicao_dic['weather'][0]['description']
     temperatura = requsicao_dic['main']['temp'] - 273.15
-    icon = requsicao_dic['weather'][0]['icon']
+    icone = requsicao_dic['weather'][0]['icon']
 except KeyError:
     descricao = "Cidade não encontrada"
     temperatura = "0"
     icon = "⚠"
 
-
+icon = f"https://openweathermap.org/img/wn/{icone}@2x.png"
 
 #--------------------------------------------------------------------------------
 #layout
