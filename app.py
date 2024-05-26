@@ -103,7 +103,6 @@ text = """
     <style>
     [data-testid="stMarkdownContainer"]
     {
-    font-size: 30pt;
     text-align: center;
     }
     </style>
