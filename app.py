@@ -85,18 +85,18 @@ desativardetalhes = """
 """
 st.markdown(desativardetalhes,unsafe_allow_html=True)
 
-containerborda = """
-    <style>
-    [data-testid="stVerticalBlockBorderWrapper"]
-    {
-    border-radius: 18px;
-    background-color: #26506D;
-    padding: 30px;
-    opacity: 90%;
-    }
-    </style>
-"""
-st.markdown(containerborda,unsafe_allow_html=True)
+# containerborda = """
+#     <style>
+#     [data-testid="stVerticalBlockBorderWrapper"]
+#     {
+#     border-radius: 18px;
+#     background-color: #26506D;
+#     padding: 30px;
+#     opacity: 90%;
+#     }
+#     </style>
+# """
+# st.markdown(containerborda,unsafe_allow_html=True)
 
 
     
