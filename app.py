@@ -64,7 +64,7 @@ temp = f'{int(temperatura)}°C'
 
 with container:
     st.write(descricao)
-    st.image(icon)
+    st.write(icon)
 
 
 #--------------------------------------------------------------------------------
