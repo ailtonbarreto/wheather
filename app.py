@@ -129,7 +129,7 @@ containerborda = """
     border-radius: 18px;
     background-color: black;
     padding: 30px;
-    opacity: 80%;
+    opacity: 70%;
     text-align: center;
     }
     </style>
