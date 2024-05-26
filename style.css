@@ -2,14 +2,13 @@ header{
     visibility: hidden;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 section{
     background-image: url("https://onedrive.live.com/embed?resid=889989985DE63ABD%215221&authkey=%21ACCiGl2dPst19go&width=1920&height=1080");
     background-size: cover;
 
 }
-
-
-#stVerticalBlock{
-    align-items: center;
-}
-
