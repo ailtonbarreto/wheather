@@ -91,7 +91,7 @@ containerborda = """
     border-radius: 18px;
     background-color: black;
     padding: 30px;
-    opacity: 70%;
+    opacity: 50%;
     text-align: center;
     }
     </style>
