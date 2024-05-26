@@ -13,9 +13,8 @@ st.set_page_config(page_title="App clima",layout='centered',page_icon='🌥')
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html = True)
 
-
-container = st.container()
-col1, col2 = st.columns([2,1])
+col1,= st.columns(1)
+col2, col3 = st.columns([2,1])
 #--------------------------------------------------------------------------------
 #chave api
 
@@ -23,7 +22,7 @@ apikey = 'd66a70f6c2960de613aae17abe518df9'
 
 #--------------------------------------------------------------------------------
 #seletor cidade
-with container:
+with col1:
     cidade = st.text_input('Cidade').upper()
 
 
@@ -63,13 +62,11 @@ icon = f"https://openweathermap.org/img/wn/{icon}@2x.png"
 #layout
 
 temp = f'{int(temperatura)}°C'
-
-with container:
-    with col1:
-        st.image(icon,width=100)
-    with col2:
-        st.write(descricao)
-        st.write(temp)
+  
+with col2:
+    st.image(icon,width=100)
+    st.write(descricao)
+    st.write(temp)
         
 
 
